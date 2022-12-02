@@ -1,1 +1,1 @@
-SELECT FirstName, LastName FROM customers WHERE Country = 'USA' AND SupportRep = 3;
+SELECT FirstName, LastName FROM customers WHERE Country = 'USA' AND SupportRepId = 3;
