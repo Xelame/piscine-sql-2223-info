@@ -1,1 +1,1 @@
-DROP TABLE artists;
+DELETE FROM artists;
