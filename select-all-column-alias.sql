@@ -1,0 +1,1 @@
+SELECT EmployeeId AS Identifiant, LastName AS Nom, FirstName AS Prénom FROM Employees;
