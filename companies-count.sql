@@ -1,1 +1,1 @@
-SELECT COUNT(*) AS NbCompanies FROM customers INNER JOIN invoices ON customers.CustomerId = invoices.CustomerId WHERE Company IS NOT NULL;
+SELECT COUNT(*) AS NbCompanies FROM customers WHERE Company IS NOT NULL;
