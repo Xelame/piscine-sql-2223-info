@@ -1,0 +1,1 @@
+SELECT * invoice_items WHERE BillingCity = 'Paris' OR BillingCity = 'Bordeaux' OR BillingCity = 'Stuttggart' ORDER BY Total DESC;
