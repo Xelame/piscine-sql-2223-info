@@ -1,1 +1,1 @@
-SELECT FROM customers WHERE Company = 'Microsoft Corporation';
+SELECT * FROM customers WHERE Company = 'Microsoft Corporation';
