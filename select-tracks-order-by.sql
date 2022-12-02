@@ -1,1 +1,1 @@
-SELECT Name, Milliseconds FROM tracks ORDER BY ASC WHERE Composer = 'AC/DC';
+SELECT Name, Milliseconds FROM tracks WHERE Composer = 'AC/DC' ORDER BY ASC ;
