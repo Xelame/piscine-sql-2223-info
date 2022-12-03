@@ -1,0 +1,1 @@
+SELECT genres.name, COUNT(tracks.id) AS NumberOfTracks FROM tracks INNER JOIN genres ON tracks.genreid = genres.genreid GROUP BY genres.name;
