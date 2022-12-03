@@ -1,0 +1,1 @@
+SELECT artists.name AS ArtistName, albums.title AS AlbumName, tracks.name AS TrackName, ROUND(tracks.Bytes / 1000000.0, 2) || ' MB' AS MegaBytes FROM artists INNER JOIN albums ON artists.ArtistId = albums.ArtistId INNER JOIN tracks ON albums.AlbumId = tracks.AlbumId WHERE albums.Title = 'American Idiot';
