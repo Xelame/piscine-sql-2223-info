@@ -4,4 +4,5 @@ Case
     WHEN Total > 10 THEN 'Price lower than 10$'
     ELSE 'Price higher than 10$'
 END
-FROM invoices;
+FROM invoices
+LIMIT 100;
