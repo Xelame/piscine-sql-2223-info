@@ -1,1 +1,1 @@
-SELECT FirstName, LastName, AVG(Total) AS InvoicesAverage FROM Customers GROUP BY FirstName, LastName ORDER BY FirstName ASC;
+SELECT FirstName, LastName, AVG(Total) AS InvoicesAverage FROM Invoices INNER JOIN customers ON Invoices.CustomerId = customers.CustomerId  GROUP BY FirstName, LastName ORDER BY FirstName ASC;
