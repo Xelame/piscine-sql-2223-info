@@ -1,0 +1,1 @@
+SELECT employees.FirstName || ' ' || UPPER(employees.LastName) AS FullName, COUNT(*) AS NumberOfCustomers FROM customers INNER JOIN employees ON customers.SupportRepId = employees.EmployeeId GROUP BY FullName ORDER BY NumberOfCustomers ASC;
