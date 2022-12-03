@@ -1,0 +1,1 @@
+SELECT FirstName, LastName, AVG(Total) AS InvoicesAverage FROM Customer GROUP BY FirstName, LastName ORDER BY FirstName ASC;
