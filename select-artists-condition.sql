@@ -1,0 +1,1 @@
+SELECT Name FROM albums INNER JOIN artists ON albums.ArtistId = artists.ArtistId GROUP BY Name HAVING COUNT(Name) >= 4 ORDER BY Name DESC;
