@@ -1,1 +1,1 @@
-SELECT Title FROM albums WHERE Title IN (SELECT Name FROM genres); 
+SELECT * FROM albums WHERE Title IN (SELECT Name FROM genres); 
